@@ -1,0 +1,114 @@
+.unpopulated-state,
+.unpopulated-state * {
+  box-sizing: border-box;
+}
+.unpopulated-state {
+  background: #1f2937;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: var(--miscellaneous-bar-border, rgba(0, 0, 0, 0.3));
+  border-width: 1px;
+  height: 550px;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(2px);
+}
+.heading {
+  text-align: left;
+  font-family: "Karla-ExtraBold", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+  font-weight: 800;
+  position: absolute;
+  left: 52px;
+  top: 115px;
+  width: 556px;
+}
+.heading-span {
+  color: var(--white, #ffffff);
+}
+.heading-span2 {
+  color: #4adf86;
+}
+.supporting-text {
+  color: var(--medium-grey, #d5d4d8);
+  text-align: left;
+  font-family: var(
+    --text-xl-leading-7-font-normal-font-family,
+    "Inter-Regular",
+    sans-serif
+  );
+  font-size: var(--text-xl-leading-7-font-normal-font-size, 20px);
+  line-height: var(--text-xl-leading-7-font-normal-line-height, 28px);
+  font-weight: var(--text-xl-leading-7-font-normal-font-weight, 400);
+  position: absolute;
+  left: 52px;
+  top: 205px;
+  width: 372px;
+}
+#button {
+  background: #10b981;
+  border-radius: 6px;
+  padding: 9px 17px 9px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 52px;
+  top: 284px;
+  box-shadow: var(--shadow-sm-box-shadow, 0px 1px 2px 0px rgba(0, 0, 0, 0.05));
+  overflow: hidden;
+}
+.text {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: var(
+    --text-base-leading-6-font-medium-font-family,
+    "Inter-Medium",
+    sans-serif
+  );
+  font-size: var(--text-base-leading-6-font-medium-font-size, 16px);
+  line-height: var(--text-base-leading-6-font-medium-line-height, 24px);
+  font-weight: var(--text-base-leading-6-font-medium-font-weight, 500);
+  position: relative;
+}
+#rectangle-95 {
+  color: white;
+  text-align: center;
+  padding-top: 13px;
+  background: #273549;
+  border-radius: 6px;
+  width: 211px;
+  height: 39px;
+  position: absolute;
+  left: 52px;
+  top: 396px;
+}
+#rectangle-96 {
+  color:white;
+  text-align: center;
+  padding-top: 13px;
+  background: #273549;
+  border-radius: 6px;
+  width: 211px;
+  height: 39px;
+  position: absolute;
+  left: 287px;
+  top: 396px;
+}
+.line-17 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: #2f3e53;
+  border-width: 1px 0 0 0;
+  width: 446px;
+  height: 0px;
+  position: absolute;
+  left: 52px;
+  top: 361px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
